@@ -36,7 +36,7 @@ def get_total_price_dinar(request):
             dep_id = getattr(dep, 'id', None) if dep else None
             dep_name = getattr(dep, 'name', None) if dep else None
             try:
-                pr_dep = po.purchase_request.requested_by.dep_id if po.purchase_request and po.purchase_request.requested_by else None
+                            pr_dep = po.purchase_request.requested_by.dep_id if po.purchase_request and po.purchase_request.requested_by else None
             except Exception:
                 pr_dep = None
             try:
@@ -178,6 +178,9 @@ def get_filtered_purchase_orders(request, include_status_filter=True):
     qs = PurchaseOrder.objects.all()
     if include_status_filter:
         qs = qs.filter(Q(statuss__iexact='approved') | Q(statuss__iexact='rejected'))
+    
+    # Exclude users with role_id = 4
+    # qs = qs.exclude(Q(purchase_request__requested_by__role_id__id=4) | Q(requested_by_user__role_id__id=4))   
     if start:
         qs = qs.filter(created_at__date__gte=start)
     if end:

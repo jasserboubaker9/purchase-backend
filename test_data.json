@@ -1,0 +1,806 @@
+{
+    "purchase_requests": [
+        {
+            "id": 1,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 1",
+            "description": "Description for test PR 1",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.189480Z",
+            "updated_at": "2026-03-05T10:56:27.189480Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 2,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 2",
+            "description": "Description for test PR 2",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.198163Z",
+            "updated_at": "2026-03-05T10:56:27.198163Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 3,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 3",
+            "description": "Description for test PR 3",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.199181Z",
+            "updated_at": "2026-03-05T10:56:27.199181Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 4,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 4",
+            "description": "Description for test PR 4",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.201158Z",
+            "updated_at": "2026-03-05T10:56:27.201158Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 5,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 5",
+            "description": "Description for test PR 5",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.202158Z",
+            "updated_at": "2026-03-05T10:56:27.202158Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 6,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 6",
+            "description": "Description for test PR 6",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.203158Z",
+            "updated_at": "2026-03-05T10:56:27.203158Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 7,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 7",
+            "description": "Description for test PR 7",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.204159Z",
+            "updated_at": "2026-03-05T10:56:27.204159Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 8,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 8",
+            "description": "Description for test PR 8",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.205158Z",
+            "updated_at": "2026-03-05T10:56:27.205158Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 9,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 9",
+            "description": "Description for test PR 9",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.206157Z",
+            "updated_at": "2026-03-05T10:56:27.206157Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 10,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 10",
+            "description": "Description for test PR 10",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.207512Z",
+            "updated_at": "2026-03-05T10:56:27.207512Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 11,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 11",
+            "description": "Description for test PR 11",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.208519Z",
+            "updated_at": "2026-03-05T10:56:27.208519Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 12,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 12",
+            "description": "Description for test PR 12",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.209517Z",
+            "updated_at": "2026-03-05T10:56:27.209517Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 13,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 13",
+            "description": "Description for test PR 13",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.210558Z",
+            "updated_at": "2026-03-05T10:56:27.210558Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 14,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 14",
+            "description": "Description for test PR 14",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.211598Z",
+            "updated_at": "2026-03-05T10:56:27.211598Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 15,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 15",
+            "description": "Description for test PR 15",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.213517Z",
+            "updated_at": "2026-03-05T10:56:27.213517Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 16,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 16",
+            "description": "Description for test PR 16",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.214518Z",
+            "updated_at": "2026-03-05T10:56:27.214518Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 17,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 17",
+            "description": "Description for test PR 17",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.216518Z",
+            "updated_at": "2026-03-05T10:56:27.216518Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 18,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 18",
+            "description": "Description for test PR 18",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.218518Z",
+            "updated_at": "2026-03-05T10:56:27.218518Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 19,
+            "requested_by": 3,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 19",
+            "description": "Description for test PR 19",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.219520Z",
+            "updated_at": "2026-03-05T10:56:27.219520Z",
+            "is_archived": false,
+            "priority": "medium"
+        },
+        {
+            "id": 20,
+            "requested_by": 4,
+            "approved_by": null,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PR 20",
+            "description": "Description for test PR 20",
+            "status": "approved",
+            "created_at": "2026-03-05T10:56:27.221521Z",
+            "updated_at": "2026-03-05T10:56:27.221521Z",
+            "is_archived": false,
+            "priority": "medium"
+        }
+    ],
+    "purchase_orders": [
+        {
+            "id": 20,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 20",
+            "description": "Description for test PO linked to PR 20",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.693314Z",
+            "updated_at": "2026-03-05T10:59:01.694317Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 20
+        },
+        {
+            "id": 19,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 19",
+            "description": "Description for test PO linked to PR 19",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.717314Z",
+            "updated_at": "2026-03-05T10:59:01.717314Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 19
+        },
+        {
+            "id": 18,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 18",
+            "description": "Description for test PO linked to PR 18",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.720326Z",
+            "updated_at": "2026-03-05T10:59:01.720326Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 18
+        },
+        {
+            "id": 17,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 17",
+            "description": "Description for test PO linked to PR 17",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.723316Z",
+            "updated_at": "2026-03-05T10:59:01.723316Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 17
+        },
+        {
+            "id": 16,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 16",
+            "description": "Description for test PO linked to PR 16",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.726314Z",
+            "updated_at": "2026-03-05T10:59:01.726314Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 16
+        },
+        {
+            "id": 15,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 15",
+            "description": "Description for test PO linked to PR 15",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.729315Z",
+            "updated_at": "2026-03-05T10:59:01.729315Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 15
+        },
+        {
+            "id": 14,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 14",
+            "description": "Description for test PO linked to PR 14",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.732596Z",
+            "updated_at": "2026-03-05T10:59:01.732596Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 14
+        },
+        {
+            "id": 13,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 13",
+            "description": "Description for test PO linked to PR 13",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.735640Z",
+            "updated_at": "2026-03-05T10:59:01.735640Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 13
+        },
+        {
+            "id": 12,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 12",
+            "description": "Description for test PO linked to PR 12",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.739822Z",
+            "updated_at": "2026-03-05T10:59:01.739822Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 12
+        },
+        {
+            "id": 11,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 11",
+            "description": "Description for test PO linked to PR 11",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.743827Z",
+            "updated_at": "2026-03-05T10:59:01.743827Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 11
+        },
+        {
+            "id": 10,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 10",
+            "description": "Description for test PO linked to PR 10",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.747825Z",
+            "updated_at": "2026-03-05T10:59:01.747825Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 10
+        },
+        {
+            "id": 9,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 9",
+            "description": "Description for test PO linked to PR 9",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.750996Z",
+            "updated_at": "2026-03-05T10:59:01.750996Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 9
+        },
+        {
+            "id": 8,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 8",
+            "description": "Description for test PO linked to PR 8",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.754320Z",
+            "updated_at": "2026-03-05T10:59:01.754320Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 8
+        },
+        {
+            "id": 7,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 7",
+            "description": "Description for test PO linked to PR 7",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.758321Z",
+            "updated_at": "2026-03-05T10:59:01.758321Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 7
+        },
+        {
+            "id": 6,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 6",
+            "description": "Description for test PO linked to PR 6",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.761843Z",
+            "updated_at": "2026-03-05T10:59:01.761843Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 6
+        },
+        {
+            "id": 5,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 5",
+            "description": "Description for test PO linked to PR 5",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.764846Z",
+            "updated_at": "2026-03-05T10:59:01.764846Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 5
+        },
+        {
+            "id": 4,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 4",
+            "description": "Description for test PO linked to PR 4",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.767848Z",
+            "updated_at": "2026-03-05T10:59:01.767848Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 4
+        },
+        {
+            "id": 3,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 3",
+            "description": "Description for test PO linked to PR 3",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.770841Z",
+            "updated_at": "2026-03-05T10:59:01.770841Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 3
+        },
+        {
+            "id": 2,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "approved",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 2",
+            "description": "Description for test PO linked to PR 2",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.773847Z",
+            "updated_at": "2026-03-05T10:59:01.773847Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 4,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 2
+        },
+        {
+            "id": 1,
+            "start_date": "2026-03-05",
+            "end_date": "2026-03-05",
+            "statuss": "rejected",
+            "products": {
+                "test": "data"
+            },
+            "title": "Test PO 1",
+            "description": "Description for test PO linked to PR 1",
+            "currency": "TND",
+            "created_at": "2026-03-05T10:59:01.776842Z",
+            "updated_at": "2026-03-05T10:59:01.776842Z",
+            "priority": "medium",
+            "refuse_reason": null,
+            "is_archived": false,
+            "supplier_delivery_date": null,
+            "approved_by_user": null,
+            "requested_by_user": 3,
+            "department": null,
+            "rejected_reason": null,
+            "purchase_request": 1
+        }
+    ]
+}
